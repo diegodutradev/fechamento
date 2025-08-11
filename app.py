@@ -53,9 +53,10 @@ def index():
         txt.write(f"QR Code Máquina...: R$ {dados['qrcode_maquina']:.2f}\n")
         txt.write(f"QR Code Consumer..: R$ {dados['qrcode_consumer']:.2f}\n")
         txt.write("\n")
-        txt.write(f"Pix Chave........: R$ {dados['pix_consumer']:.2f}\n")
         txt.write(f"Dinheiro no Consumer.: R$ {dados['dinheiro_contado']:.2f}\n")
         txt.write(f"Dinheiro no Caixa.: R$ {dados['dinheiro_consumer']:.2f}\n")
+        txt.write("\n")
+        txt.write(f"Pix Chave........: R$ {dados['pix_consumer']:.2f}\n")
         txt.write("\n")
         txt.write(f"Despesas..........: R$ {dados['despesas']:.2f}\n")
         txt.write("-----------------------------------------\n")
@@ -66,7 +67,7 @@ def index():
         if diferencas_existentes:
             txt.write("\nDiferenças:\n")
             for k, v in diferencas_existentes.items():
-                txt.write(f"- {k}: R$ {v:.2f}\n")
+                txt.write(f"-> {k}: R$ {v:.2f}\n")
 
         txt.write("*****************************************\n")
 
