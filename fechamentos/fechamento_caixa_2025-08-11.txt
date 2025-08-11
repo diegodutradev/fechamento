@@ -1,0 +1,20 @@
+==============================
+      FECHAMENTO DE CAIXA
+==============================
+Data: 2025-08-11
+Data: R$ 2025-08-11
+Abertura: R$ 
+Fechamento: R$ 
+Total Vendas: R$ 
+Diferenca: R$ 
+Observacoes: R$ 
+
+Total de Vendas: R$ 0.0
+Líquido: R$ 0.0
+
+Diferenças:
+Debito: 0.0
+Credito: 0.0
+Qrcode: 0.0
+Dinheiro: 0.0
+==============================
